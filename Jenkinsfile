@@ -1,6 +1,8 @@
 #!/usr/bin/env groovy
 
-@Library('apm@current') _
+@Library('apm@gha-build-with-gh-fix-1') _
+
+//@Library('apm@current') _
 
 pipeline {
   agent { label 'ubuntu-18 && immutable' }

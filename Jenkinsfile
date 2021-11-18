@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-@Library('apm@gha-build-with-gh-fix-1') _
+@Library('apm@gha-build-with-gh') _
 
 //@Library('apm@current') _
 
